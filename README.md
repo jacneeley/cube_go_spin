@@ -15,3 +15,5 @@ The trick for this one is the applying the math.<br>
 
 `def calculateZ(i, j, k):
     return k * cos(A) * cos(B) - j * sin(A) * cos(B) + i * sin(B)`
+
+[Inspired by servetgulnarog cube.c](https://github.com/servetgulnaroglu/cube.c)
