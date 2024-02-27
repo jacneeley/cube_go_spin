@@ -51,11 +51,8 @@ def calculateSurface(cubeX, cubeY, cubeZ, chars):
             zBuffer[idx] = max(1, int(ooz))
             buffer[idx] = chars
     
-    #print(zBuffer, buffer)
 
 if __name__ == "__main__":
-    #print("cube")
-    #os.system("clear")
     while run != 0:
         buffer = [backgroundASCIICode] * (width * height)
         zBuffer = bytearray([0] * (width * height * 4))
